@@ -1,0 +1,77 @@
+body{
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  background-color: rgba(0,0,0,.55);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+
+.logo{
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
+.logo-text{
+  font-size: 25px;
+  color: lime;
+  margin-top: 10px;
+  text-align: center;
+}
+
+nav{
+  height: 20px;
+  padding: 10px;
+  background-color:lime;
+  text-align: center;
+}
+
+.monopattino{
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+}
+
+.username{
+  font-size: 25px;
+}
+
+.indirizzo{
+  display: block;
+}
+
+
+.indirizzo:before{
+  content: "\21A6";
+}
+
+.full-battery{
+  width: 60%;
+  height: 25px;
+  text-align: left;
+  background-color: #32CD32; /*Verde*/
+}
+
+.mid-battery{
+  width: 35%;
+  height: 25px;
+  text-align: left;
+  background-color: #FFD700; /*Giallo*/
+}
+
+.low-battery{
+  width: 20%;
+  height: 25px;
+  text-align: left;
+  background-color: #cc0000; /*Rosso*/
+}
